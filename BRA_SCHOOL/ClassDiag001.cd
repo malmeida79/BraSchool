@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BRA_SCHOOL.BU.BuBairro" Collapsed="true">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAECAAAAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuBairro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.BU.BuCidade" Collapsed="true">
+    <Position X="11.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAECAAAAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuCidade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.BU.BuCurso" Collapsed="true">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAECAAAAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuCurso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.BU.BuEndereco" Collapsed="true">
+    <Position X="14.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAECAAAAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuEndereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.BU.BuEstado" Collapsed="true">
+    <Position X="16.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAECAAAAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuEstado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.BU.BuLogradouro" Collapsed="true">
+    <Position X="18.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAECAAAAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuLogradouro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.BU.BuMateria" Collapsed="true">
+    <Position X="20" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAECAAAAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuMateria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.BU.BuNivelProfessor" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAECAAAAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuNivelProfessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.BU.BuPais" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAECAAAAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuPais.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.BU.BuProfessor" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAECAAAAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuProfessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.BU.BuSala" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAECAAAAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuSala.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.BU.BuUnidade" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAECAAAAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuUnidade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.BU.BuUsuario" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEABAAAECAABAAAAEAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BU\BuUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoBairro" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAECAAAAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoBairro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoBase&lt;T&gt;" Collapsed="true">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIACgAAEAAAgQAAIAAAgAAABAAAAAAAEAgAAAAAAA=</HashCode>
+      <FileName>DAO\DaoBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoCidade" Collapsed="true">
+    <Position X="13" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAECAAAAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoCidade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoCurso" Collapsed="true">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAECAAAAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoCurso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoEndereco" Collapsed="true">
+    <Position X="16.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAECAAAAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoEndereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoEstado" Collapsed="true">
+    <Position X="18.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAECAAAAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoEstado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoLogradouro" Collapsed="true">
+    <Position X="20" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAECAAAAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoLogradouto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoMateria" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAECAAAAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoMateria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoNivelProfessor" Collapsed="true">
+    <Position X="11.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAECAAAAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoNivelProfessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoPais" Collapsed="true">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAECAAAAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoPais.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoProfessor" Collapsed="true">
+    <Position X="14.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAECAAAAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoProfessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoSala" Collapsed="true">
+    <Position X="16.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAECAAAAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoSala.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoUnidade" Collapsed="true">
+    <Position X="18.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAECAAAAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoUnidade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.DAO.DaoUsuario" Collapsed="true">
+    <Position X="20" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEABAAAECAABAAAAAAgAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>DAO\DaoUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntBairro" Collapsed="true">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAEAAAAAAAABAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ENT\EntBairro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntCidade" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAIAIAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ENT\EntCidade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntCurso" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAA=</HashCode>
+      <FileName>ENT\EntCursos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntEndereco" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAQAQAAAAAAAAABIAIABAAAAAAoAAAEA=</HashCode>
+      <FileName>ENT\EntEndereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntEstado" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>ENT\EntEstado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntLogradouro" Collapsed="true">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAAoAAAAA=</HashCode>
+      <FileName>ENT\EntLogradouro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntMateria" Collapsed="true">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQBABAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>ENT\EntMaterias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntNivelProfessor" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAAABAAAQAA=</HashCode>
+      <FileName>ENT\EntNivelProfessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntPais" Collapsed="true">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAARAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ENT\EntPaises.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntPeriodo" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAhAAAAAAAAAAAAAABAAAEAAAAEAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ENT\EntPeriodo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntProfessor" Collapsed="true">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAIAAAAAAAACAAAAAAAAAAAIA=</HashCode>
+      <FileName>ENT\EntProfessores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntSala" Collapsed="true">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAEAAAAAAAAAAAAAAAAAABAAgAAAAAAA=</HashCode>
+      <FileName>ENT\EntSala.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntUnidade" Collapsed="true">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>ENT\EntUnidade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.ENT.EntUsuario" Collapsed="true">
+    <Position X="16.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAACQAAIAAAAAAAIAQgAIAAEIAAEAAAAACgMAAQA=</HashCode>
+      <FileName>ENT\EntUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.UTILS.Languages" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAEAACAAAAAAAAAAAIAAAgAAAAAAAEAAIA=</HashCode>
+      <FileName>UTILS\Languages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.UTILS.LogFile" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQAAAAAAAAAAAAAAQAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>UTILS\LogFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.MakeSql.Sql" Collapsed="true">
+    <Position X="14.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEMAAAQAJAAAAgABCIEigAAAAAAARAACCAAAAACAAA=</HashCode>
+      <FileName>UTILS\MakeSql.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.Opcoes.Logado" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAQAAAAAAAAAAAQAABAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UTILS\Opcoes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.Opcoes.Contagem" Collapsed="true">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UTILS\Opcoes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.Opcoes.Msg" Collapsed="true">
+    <Position X="13" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAIAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>UTILS\Opcoes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.Opcoes.Limpeza" Collapsed="true">
+    <Position X="20" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UTILS\Opcoes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRA_SCHOOL.Opcoes.Valida" Collapsed="true">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAQAgAgAAAEAAAAAAA=</HashCode>
+      <FileName>UTILS\Opcoes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

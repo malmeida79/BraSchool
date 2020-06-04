@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFF26898-4B3D-44E0-9B44-0ED0AB42FCE8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BRA_SCHOOL</RootNamespace>
+    <AssemblyName>BRA_SCHOOL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>BRA_SCHOOL.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>input-tablet-2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BU\BuSala.cs" />
+    <Compile Include="BU\BuUnidade.cs" />
+    <Compile Include="BU\BuUsuario.cs" />
+    <Compile Include="BU\BuPais.cs" />
+    <Compile Include="BU\BuMateria.cs" />
+    <Compile Include="BU\BuCurso.cs" />
+    <Compile Include="BU\BuProfessor.cs" />
+    <Compile Include="BU\BuNivelProfessor.cs" />
+    <Compile Include="BU\BuEstado.cs" />
+    <Compile Include="BU\BuCidade.cs" />
+    <Compile Include="BU\BuBairro.cs" />
+    <Compile Include="BU\BuLogradouro.cs" />
+    <Compile Include="BU\BuEndereco.cs" />
+    <Compile Include="BU\BuGrupo.cs" />
+    <Compile Include="BU\BuFuncionalidade.cs" />
+    <Compile Include="BU\BuArquivo.cs" />
+    <Compile Include="DAO\DaoArquivo.cs" />
+    <Compile Include="DAO\DaoFuncionalidade.cs" />
+    <Compile Include="DAO\DaoGrupo.cs" />
+    <Compile Include="DAO\DaoEndereco.cs" />
+    <Compile Include="DAO\DaoLogradouto.cs" />
+    <Compile Include="DAO\DaoBairro.cs" />
+    <Compile Include="DAO\DaoCidade.cs" />
+    <Compile Include="DAO\DaoEstado.cs" />
+    <Compile Include="DAO\DaoNivelProfessor.cs" />
+    <Compile Include="DAO\DaoSala.cs" />
+    <Compile Include="DAO\DaoProfessor.cs" />
+    <Compile Include="DAO\DaoBase.cs" />
+    <Compile Include="DAO\DaoCurso.cs" />
+    <Compile Include="DAO\DaoMateria.cs" />
+    <Compile Include="DAO\DaoPais.cs" />
+    <Compile Include="DAO\DaoUnidade.cs" />
+    <Compile Include="DAO\DaoUsuario.cs" />
+    <Compile Include="ENT\EntArquivo.cs" />
+    <Compile Include="ENT\EntFuncionalidade.cs" />
+    <Compile Include="ENT\EntGrupo.cs" />
+    <Compile Include="ENT\EntEndereco.cs" />
+    <Compile Include="ENT\EntLogradouro.cs" />
+    <Compile Include="ENT\EntBairro.cs" />
+    <Compile Include="ENT\EntCidade.cs" />
+    <Compile Include="ENT\EntEstado.cs" />
+    <Compile Include="ENT\EntNivelProfessor.cs" />
+    <Compile Include="ENT\EntPeriodo.cs" />
+    <Compile Include="ENT\EntProfessores.cs" />
+    <Compile Include="ENT\EntCurso.cs" />
+    <Compile Include="ENT\EntMaterias.cs" />
+    <Compile Include="ENT\EntPaises.cs" />
+    <Compile Include="ENT\EntSala.cs" />
+    <Compile Include="ENT\EntUnidade.cs" />
+    <Compile Include="ENT\EntUsuario.cs" />
+    <Compile Include="FORMS\frmExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmExport.Designer.cs">
+      <DependentUpon>frmExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmFuncionalidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmFuncionalidade.Designer.cs">
+      <DependentUpon>frmFuncionalidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmGrupo.Designer.cs">
+      <DependentUpon>frmGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmEndereco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmEndereco.Designer.cs">
+      <DependentUpon>frmEndereco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmLogradouro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmLogradouro.Designer.cs">
+      <DependentUpon>frmLogradouro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmBairro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmBairro.Designer.cs">
+      <DependentUpon>frmBairro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmCidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmCidade.Designer.cs">
+      <DependentUpon>frmCidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmEstado.Designer.cs">
+      <DependentUpon>frmEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmNivelProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmNivelProfessor.Designer.cs">
+      <DependentUpon>frmNivelProfessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmProfessor.Designer.cs">
+      <DependentUpon>frmProfessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmCurso.Designer.cs">
+      <DependentUpon>frmCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmMateria.Designer.cs">
+      <DependentUpon>frmMateria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmPais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmPais.Designer.cs">
+      <DependentUpon>frmPais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmSala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmSala.Designer.cs">
+      <DependentUpon>frmSala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmUnidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmUnidade.Designer.cs">
+      <DependentUpon>frmUnidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmUsuario.Designer.cs">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RESOURCES\BR\msgBR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>msgBR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RESOURCES\BR\ptBR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ptBR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RESOURCES\ES\msgES.Designer.cs">
+      <DependentUpon>msgES.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RESOURCES\ES\esES.Designer.cs">
+      <DependentUpon>esES.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RESOURCES\US\msgUS.Designer.cs">
+      <DependentUpon>msgUS.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RESOURCES\US\enUS.Designer.cs">
+      <DependentUpon>enUS.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="UTILS\LogFile.cs" />
+    <Compile Include="UTILS\MakeSql.cs" />
+    <Compile Include="UTILS\Languages.cs" />
+    <Compile Include="UTILS\Opcoes.cs" />
+    <EmbeddedResource Include="FORMS\frmExport.resx">
+      <DependentUpon>frmExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmFuncionalidade.resx">
+      <DependentUpon>frmFuncionalidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmGrupo.resx">
+      <DependentUpon>frmGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmEndereco.resx">
+      <DependentUpon>frmEndereco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmLogradouro.resx">
+      <DependentUpon>frmLogradouro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmBairro.resx">
+      <DependentUpon>frmBairro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmCidade.resx">
+      <DependentUpon>frmCidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmEstado.resx">
+      <DependentUpon>frmEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmNivelProfessor.resx">
+      <DependentUpon>frmNivelProfessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmProfessor.resx">
+      <DependentUpon>frmProfessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmCurso.resx">
+      <DependentUpon>frmCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmMateria.resx">
+      <DependentUpon>frmMateria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmPais.resx">
+      <DependentUpon>frmPais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmSala.resx">
+      <DependentUpon>frmSala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmUnidade.resx">
+      <DependentUpon>frmUnidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmUsuario.resx">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RESOURCES\BR\msgBR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>msgBR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RESOURCES\BR\ptBR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ptBR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RESOURCES\ES\msgES.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>msgES.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RESOURCES\ES\esES.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>esES.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RESOURCES\US\msgUS.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>msgUS.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RESOURCES\US\enUS.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>enUS.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiag001.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENS\splash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENS\fundo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENS\fundo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="input-tablet-2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Relatorios\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ativo" xml:space="preserve">
+    <value>Active</value>
+    <comment>check</comment>
+  </data>
+  <data name="bairro" xml:space="preserve">
+    <value>Neighbor:</value>
+    <comment>label</comment>
+  </data>
+  <data name="bloqueado" xml:space="preserve">
+    <value>Blocked</value>
+    <comment>check</comment>
+  </data>
+  <data name="cancela" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>botao</comment>
+  </data>
+  <data name="cancelar" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>botao</comment>
+  </data>
+  <data name="cidade" xml:space="preserve">
+    <value>City:</value>
+    <comment>label</comment>
+  </data>
+  <data name="confirmacao" xml:space="preserve">
+    <value>Confirm:</value>
+    <comment>label</comment>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Mail:</value>
+    <comment>label</comment>
+  </data>
+  <data name="endereco" xml:space="preserve">
+    <value>Address:</value>
+    <comment>label</comment>
+  </data>
+  <data name="estado" xml:space="preserve">
+    <value>State:</value>
+    <comment>label</comment>
+  </data>
+  <data name="excluir" xml:space="preserve">
+    <value>Delete</value>
+    <comment>botao</comment>
+  </data>
+  <data name="exportar" xml:space="preserve">
+    <value>Export</value>
+    <comment>botao</comment>
+  </data>
+  <data name="fechar" xml:space="preserve">
+    <value>Close</value>
+    <comment>botao</comment>
+  </data>
+  <data name="frmBairro" xml:space="preserve">
+    <value>:: Manage of Neighborhood - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmCidade" xml:space="preserve">
+    <value>:: Manage of Cities - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmCurso" xml:space="preserve">
+    <value>:: Manage of Courses - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmEndereco" xml:space="preserve">
+    <value>:: Manage of Address - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmEstado" xml:space="preserve">
+    <value>:: Manage of States - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmExport" xml:space="preserve">
+    <value>:: File Export ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmFuncionalidade" xml:space="preserve">
+    <value>:: Manage of Acctions - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmGrupo" xml:space="preserve">
+    <value>:: Manage of Groups - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmLogin" xml:space="preserve">
+    <value>:: Login ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmLogradouro" xml:space="preserve">
+    <value>:: Manage of Type Street - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmMateria" xml:space="preserve">
+    <value>:: Manage of Matter - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmNivelProfessor" xml:space="preserve">
+    <value>:: Manage of Teacher Level - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmPais" xml:space="preserve">
+    <value>:: Manage of Countries - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmProfessor" xml:space="preserve">
+    <value>:: Manage of Teachers - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmSala" xml:space="preserve">
+    <value>:: Manage of Roons - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmUnidade" xml:space="preserve">
+    <value>:: Manage of Unities - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="frmUsuario" xml:space="preserve">
+    <value>:: Manage of Users - [Qtd] ::</value>
+    <comment>titulo do formulario</comment>
+  </data>
+  <data name="gravar" xml:space="preserve">
+    <value>Save</value>
+    <comment>botao</comment>
+  </data>
+  <data name="logar" xml:space="preserve">
+    <value>Login</value>
+    <comment>botao</comment>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Login:</value>
+    <comment>label</comment>
+  </data>
+  <data name="mnuAjuda" xml:space="preserve">
+    <value>Help</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuArquivo" xml:space="preserve">
+    <value>File</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuBairro" xml:space="preserve">
+    <value>Neighborhood</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuCadastro" xml:space="preserve">
+    <value>Manager</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuCascata" xml:space="preserve">
+    <value>Cascade</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuCidade" xml:space="preserve">
+    <value>City</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuCurso" xml:space="preserve">
+    <value>Curse</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuDadosEndereco" xml:space="preserve">
+    <value>Data od Address</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuEncerrar" xml:space="preserve">
+    <value>End</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuEndereco" xml:space="preserve">
+    <value>Address</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuEstado" xml:space="preserve">
+    <value>State</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuExportacoes" xml:space="preserve">
+    <value>Export</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuFecharTodos" xml:space="preserve">
+    <value>Close All</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuHorizontal" xml:space="preserve">
+    <value>Horizontal</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuJanela" xml:space="preserve">
+    <value>Window</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuLogradouro" xml:space="preserve">
+    <value>Type Street</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuMateria" xml:space="preserve">
+    <value>Matter</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuNivelProfessor" xml:space="preserve">
+    <value>Level of Teacher</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuPais" xml:space="preserve">
+    <value>Country</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuPeriodo" xml:space="preserve">
+    <value>Periodo</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuProfessor" xml:space="preserve">
+    <value>Teacher</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuRelatorio" xml:space="preserve">
+    <value>Relats</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuSala" xml:space="preserve">
+    <value>Room</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuSobre" xml:space="preserve">
+    <value>More ...</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuTurma" xml:space="preserve">
+    <value>Group</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuUnidade" xml:space="preserve">
+    <value>Unity</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuUsuario" xml:space="preserve">
+    <value>User</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="mnuVertical" xml:space="preserve">
+    <value>Vertical</value>
+    <comment>item menu</comment>
+  </data>
+  <data name="nivel" xml:space="preserve">
+    <value>Level:</value>
+    <comment>label</comment>
+  </data>
+  <data name="nome" xml:space="preserve">
+    <value>Name:</value>
+    <comment>label</comment>
+  </data>
+  <data name="novo" xml:space="preserve">
+    <value>New</value>
+    <comment>botao</comment>
+  </data>
+  <data name="pais" xml:space="preserve">
+    <value>Country:</value>
+    <comment>label</comment>
+  </data>
+  <data name="pesquisar" xml:space="preserve">
+    <value>Search</value>
+    <comment>botao</comment>
+  </data>
+  <data name="selecionaArquivo" xml:space="preserve">
+    <value>Select Format and folder for file</value>
+    <comment>botao</comment>
+  </data>
+  <data name="senha" xml:space="preserve">
+    <value>Password:</value>
+    <comment>label</comment>
+  </data>
+  <data name="unidade" xml:space="preserve">
+    <value>Unity:</value>
+    <comment>label</comment>
+  </data>
+</root>
